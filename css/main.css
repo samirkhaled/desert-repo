@@ -1,0 +1,137 @@
+body
+{
+   font-family: 'Roboto', sans-serif;
+}
+.container
+{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,
+       url(../imgs/background.png);
+    background-position: center;
+    background-size: cover;
+    padding: 0 8%;
+     
+    box-sizing: border-box;
+}
+.navbar
+{
+    display: flex;
+    height: 12%;
+    align-items: center;
+     
+}
+.logo
+{
+    width: 50px;
+    cursor: pointer;
+}
+.menuicon
+{
+    width: 50px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+nav 
+{
+    flex: 1;
+    text-align: right
+}
+nav ui li
+{
+    list-style:none;
+    display: inline-block;
+    margin-left: 60px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.row
+{
+    height: 88%;
+    display: flex;
+    align-items: center;
+}
+.col
+{
+    flex-basis: 50%;
+}
+.col h1
+{
+    color: #fff;
+    font-size: 100px;
+    
+    
+}
+.col p
+{
+    color: #fff;
+    font-size: 14px;
+    line-height: 15px;
+    
+}
+.col button
+{
+    width: 180px;
+    color: #000;
+    background-color: #fff;
+    border: 0;
+    margin-top: 30px;
+    padding: 12px 0;
+    outline: none;
+    border-radius: 20px;
+    font-size: 12px;
+ 
+}
+.card
+{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.card1
+{
+    background-image: url(../imgs/pic-1.png);
+    
+}
+.card2
+{
+    background-image: url(../imgs/pic-2.png);
+    
+}
+.card3
+{
+    background-image: url(../imgs/pic-3.png);
+    
+}
+.card4
+{
+    background-image: url(../imgs/pic-4.png);
+    
+}
+.card:hover{
+    transform: translateY(-10px)
+}
+h5{
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+    text-align: left;
+    margin: 0px 0;
+}
+.card p
+{
+    color: #fff;
+      text-align: left;
+    margin: 0px 0;
+    line-height: 1.5;
+}
+    
+}
